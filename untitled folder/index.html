@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AI DJ</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+         <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/addons/p5.sound.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+    </head>
+    <body background="cropped-studio_aim_musiclab_royalty_free_background_music.jpg">
+        <center>
+            <div id="header" class="btn btn-warning">
+                <h3>Old age home party
+                </h3>
+                <span class="instructions">Move your hand up and down to change the volume of the song, and move your hand from side to side to change the speed of the song too</span>
+            </div>
+            <br>
+            <br>
+            <br> <br> 
+            <div class="btn btn-success">Speed:</div>
+            <div class= "btn btn-warning">Volume: </div>
+            <br> <br>
+            <button id="playButton" class="btn btn-info" onclick="play()">Play</button>
+            &nbsp;
+
+            <button id="pauseButton" class="btn btn-info" onclick="pause()">Pause</button>
+        </center>
+
+    </body>
+</html>
